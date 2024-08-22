@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Content{
+  width: 600px;
+  margin: 50px auto;
+  padding: 30px 50px;
+  background-color: rgb(245, 214, 214);
+  box-shadow: 0 0 10px;
+}
+.Content h1{
+  color: rgb(117, 36, 36);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+.Content input{
+  width: 150px;
+  margin:15px;
+  padding: 5px;
+}
+.Content button{
+  padding: 7px 10px;
+  width: 80px;
+  margin: 5px 10px;
+  border-radius: 5px;
+  background-color: rgb(255, 86, 64);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+.Content button:hover{
+  background-color: rgb(255, 17, 0);
+  scale: 1.1;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+table tr th, table tr td{
+  border: 1px solid rgb(108, 79, 79);
+  padding: 10px;
+}
+.bill h2{
+  color: rgb(177, 1, 1);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+.counter button{
+  padding: 7px;
+  width: 30px;
+  margin: 5px 10px;
+  border-radius: 5px;
+  background-color: rgb(189, 126, 126);
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+.counter button:hover{
+  background-color: darkred;
+  scale: 1.1;
+}
